@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <add key="webpages:Enabled" value="true" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Github Api</title>
+</head>
+
+<body>
+    <header>
+       <div class="container">
+        <div class="logo">
+            <h2><a href="/index.html">githubApi</a></h2>
+        </div>
+        <div class="logo-github">
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+       </div>
+    </header>
+    <section>
+        <div class="container">
+            <h1>GITHUB SEARCH API - <span> <em>Using fetch</em></span></h1>
+            <p>Search any user from this api</p>
+            <span class="error">Something went wrong. Try again</span>
+            <div>
+                <input type="text" placeholder="" name="search" id="search">
+            </div>
+        </div>
+    </section>
+    <div class="animate">
+        <div class="outerCircle"></div>
+        <div class="innerCircle"></div>
+        <div class="icon"></div>
+      </div>
+    <article>
+        <div id="wrapper" class="container">
+
+           
+
+            <!-- card one -->
+
+          <div class="card-one">
+            <div>
+                <img class="img" src="./img/no-user-image.gif" alt="Avatar">
+            </div>
+            <div class="name">
+                <h2 class="fname">Name</h2>
+                <h3 class="username">Username</h3>
+            </div>
+            <div class="bio">
+                <p class="discription">Software Developer</p>
+            </div>
+            <div class="fan">
+                <p class="following"> <span><i class="fas fa-users"></i></span> 10k </p>Following
+                <p class="follower">124 </p>Follower
+            </div>
+            <div class="location">
+                <p class="gps"> <span><i class="fas fa-map-marker-alt"></i></span> Kashmir, Srinagar</p>
+            </div>
+          </div>
+
+          <!-- card-two -->
+
+
+          <div class="card-two">
+            <div class="repo">
+               <h2>Popular Repositories</h2>
+            </div>
+
+          <div class="repos">
+            <div class="repo-one">
+                <h3 class="repo1-heading">Null</h3>
+                <p class="repo1-disc">Null</p>
+             </div>
+ 
+             <div class="repo-two">
+                 <h3 class="repo2-heading">Null</h3>
+                 <p class="repo2-disc">Null</p>
+
+              </div>
+
+              <div class="repo-three">
+                <h3 class="repo3-heading">Null</h3>
+                <p class="repo3-disc">Null</p>
+
+             </div>
+
+          </div>
+
+          </div>
+
+
+        </div>
+    </article>
+</body>
+
+</html>
